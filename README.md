@@ -1,17 +1,17 @@
-## How to get the project
+# How to get the project
   - First fork this repo to your account
   - clone it using, your fork repo (https://github.com/your_username/infolanka-react.git)
   - Follow below step to run the project
   
-## Before Commit
+# Before Commit
   - Make sure to create a branch(by your page name).
-      # To create a branch
-      - git checkout -b branch-name
+      ## To create a branch
+      - `git checkout -b branch-name`
   - Implement there and push to that one.
-      # Steps
-      - git add .
-      - git commit -m "commit message"
-      - git push -u origin branch-name
+      ## Steps
+      - `git add .`
+      - `git commit -m "commit message"`
+      - `git push -u origin branch-name`
   - Then, pull request it, so that I can merge.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
