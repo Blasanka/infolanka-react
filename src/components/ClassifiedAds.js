@@ -36,7 +36,7 @@ export default function ClassifiedAds() {
                                 color="secondary"
                                 aria-label="add"
                                 className={classes.margin}>
-                                <Typography>Submit you ad</Typography>
+                                <Typography>Post an ad</Typography>
                             </Fab>
                         </div>
                     </div>

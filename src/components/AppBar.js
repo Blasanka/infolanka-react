@@ -96,10 +96,10 @@ export default function MenuAppBar() {
                 open={open}
                 onClose={handleClose}
               >
-                <MenuItem onClick={handleClose}>
+                <MenuItem component={NavLink} to="/news_room" onClick={handleClose}>
                   News Room
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem component={NavLink} to="/photo_gallery" onClick={handleClose}>
                   Photo Gallery
                 </MenuItem>
                 <MenuItem component={NavLink} to="/classified_ads" onClick={handleClose}>
@@ -108,7 +108,7 @@ export default function MenuAppBar() {
                 <MenuItem component={NavLink} to="/malinis_kitchen" onClick={handleClose}>
                   Malini's Kitchen
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem component={NavLink} to="/message_board" onClick={handleClose}>
                   Message Board
                 </MenuItem>
               </Menu>
