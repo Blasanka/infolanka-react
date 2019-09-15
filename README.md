@@ -1,6 +1,6 @@
-# How to get the project
+How to get the project
   - First fork this repo to your account
-  - clone it using, your fork repo (https://github.com/your_username/infolanka-react.git)
+  - clone it using, your fork repo (git clone https://github.com/your_username/infolanka-react.git)
   - Follow below step to run the project
   
 # Before Commit
