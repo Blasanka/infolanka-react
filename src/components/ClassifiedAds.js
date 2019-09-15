@@ -5,7 +5,6 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import AdsGrid from './AdsGrid.js';
 import CategoryExpansion from './CategoryExpansion.js';
-import SimpleBreadcrumbs from './BreadCrumb.js';
 import Fab from '@material-ui/core/Fab';
 
 const useStyles = makeStyles(theme => ({

@@ -6,7 +6,7 @@ import Home from './components/Home.js';
 import ClassifiedAds from './components/ClassifiedAds.js';
 import MalinisKitchen from './components/MalinisKitchen.js';
 import { PreviewAd } from './components/PreviewAd.js';
-import PhotoGallery from './components/photo_gallery/beauty.component';
+import PhotoGallery from './components/photo_gallery/PhotoGallery';
 import NewsRoom from './components/news_room/NewsRoom';
 import MessageBoard from './components/message_board/MessageBoard';
 
