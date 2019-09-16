@@ -3,11 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import RecipeList from './malini_kitchen/RecipeList.js';
-import SubNavigationTabs from './malini_kitchen/SubNavigationTabs.js';
-import RecipeTypeGridList from './malini_kitchen/RecipeTypeGridList.js';
+import RecipeList from './RecipeList.js';
+import SubNavigationTabs from './SubNavigationTabs.js';
+import RecipeTypeGridList from './RecipeTypeGridList.js';
 import SearchIcon from '@material-ui/icons/Search';
-import RecipeTypesDropDown from './malini_kitchen/RecipeTypesDropDown.js';
+import RecipeTypesDropDown from './RecipeTypesDropDown.js';
 import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles(theme => ({
