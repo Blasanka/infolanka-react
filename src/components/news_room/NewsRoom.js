@@ -4,9 +4,10 @@ import Home from './HomeComponent/Home';
 import Nav from "./layout/Nav";
 import Footerx from "./layout/title";
 import {Layout} from "antd";
-import Footery from "./layout/Footery";
 import Manu from "./layout/Manu";
 import {switchCase} from "@babel/types";
+import Cardtest from "./HomeComponent/card";
+
 
 
 function NewsRoom() {
@@ -14,8 +15,9 @@ function NewsRoom() {
       <Layout className="layout">
 
           <Manu/>
+          {/*<Cardtest/>*/}
           <Home/>
-          <Footery/>
+
 
       </Layout>
 
