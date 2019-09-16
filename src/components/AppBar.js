@@ -96,6 +96,9 @@ export default function MenuAppBar() {
                 open={open}
                 onClose={handleClose}
               >
+                <MenuItem component={NavLink} to="/explorer" onClick={handleClose}>
+                  Explorer
+                </MenuItem>
                 <MenuItem component={NavLink} to="/news_room" onClick={handleClose}>
                   News Room
                 </MenuItem>
