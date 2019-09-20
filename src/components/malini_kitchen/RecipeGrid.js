@@ -1,8 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import RecipeReviewCard from './RecipeCard.js';
+import RecipeCard from './RecipeCard.js';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -24,13 +23,19 @@ export default function AdsGrid() {
     return (
       <React.Fragment>
         <Grid item xs={4}>
-          <RecipeReviewCard />
+          <RecipeCard
+          title="Pasta Dough"
+          by="Dinidu 10/06/2012" />
         </Grid>
         <Grid item xs={4}>
-          <RecipeReviewCard />
+          <RecipeCard
+          title="Six Minute Corn Bread"
+          by="Madu 4/03/2012" />
         </Grid>
         <Grid item xs={4}>
-          <RecipeReviewCard />
+          <RecipeCard
+          title="Rice &amp; Beans"
+          by="Marie Williams 10/06/2012" />
         </Grid>
       </React.Fragment>
     );
