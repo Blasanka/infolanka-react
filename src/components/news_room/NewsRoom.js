@@ -1,13 +1,9 @@
 import React from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-import Home from './HomeComponent/Home';
-import Nav from "./layout/Nav";
-import Footerx from "./layout/title";
 import {Layout} from "antd";
 import Manu from "./layout/Manu";
-import {switchCase} from "@babel/types";
-import Cardtest from "./HomeComponent/card";
-
+import SlideShow from "./HomeComponent/SlideShow";
+import Home from "./HomeComponent/Home";
 
 
 function NewsRoom() {
@@ -15,6 +11,7 @@ function NewsRoom() {
       <Layout className="layout">
 
           <Manu/>
+          <SlideShow/>
           {/*<Cardtest/>*/}
           <Home/>
 

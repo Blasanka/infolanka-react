@@ -8,7 +8,7 @@ import MalinisKitchen from './components/malini_kitchen/MalinisKitchen.js';
 import PhotoGallery from './components/photo_gallery/PhotoGallery';
 import NewsRoom from './components/news_room/NewsRoom';
 import MessageBoard from './components/message_board/MessageBoard';
-
+import Explorer from "./components/news_room/Explorer/Explorera";
 function App() {
   return (
     <div>
@@ -21,6 +21,7 @@ function App() {
           <Route path="/photo_gallery" component={PhotoGallery} />
           <Route path="/news_room" component={NewsRoom} />
           <Route path="/message_board" component={MessageBoard} />
+          <Route path="/explorer" component={Explorer}/>
         </Switch>
       </Router>
     </div>

@@ -3,13 +3,11 @@ import React from "react";
 
 const {Header, Content, Footer} = Layout;
 
-export default class Footerx extends React.Component {
+export default class ExplorerHeader extends React.Component {
     render() {
         return <React.Fragment>
-
-
-
-            <Footer style={{textAlign: 'center', backgroundColor: '#FDFEFE'}}><h2>News Room</h2></Footer>
+            <Header style={{textAlign: 'center', backgroundColor: '#5d7cfe'}}><h2>Sri Lanka Explorer</h2></Header>
+            
         </React.Fragment>
     }
 
