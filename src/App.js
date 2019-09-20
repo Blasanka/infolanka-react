@@ -9,6 +9,7 @@ import PhotoGallery from './components/photo_gallery/PhotoGallery';
 import NewsRoom from './components/news_room/NewsRoom';
 import MessageBoard from './components/message_board/MessageBoard';
 import Explorer from "./components/news_room/Explorer/Explorera";
+import Addlink from "./components/news_room/Explorer/Addlink";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/news_room" component={NewsRoom} />
           <Route path="/message_board" component={MessageBoard} />
           <Route path="/explorer" component={Explorer}/>
+          <Route path="/adlink" component={Addlink}/>
         </Switch>
       </Router>
     </div>

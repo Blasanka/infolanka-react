@@ -4,6 +4,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -74,8 +75,12 @@ export default function ListDividers() {
                 <ListItemText primary="People" />
             </ListItem>
             <Divider light />
+            <ListItem button  >
+                <Link to={'/adlink'}> <ListItemText primary="Religion" /></Link>
+            </ListItem>
+            <Divider light />
             <ListItem button>
-                <ListItemText primary="Religion" />
+                <ListItemText primary="Add link" />
             </ListItem>
         </List>
     );
