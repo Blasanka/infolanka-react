@@ -9,6 +9,7 @@
     "@material-ui/lab": "^4.0.0-alpha.26",
     "antd": "^3.23.2",
     "bootstrap": "^4.3.1",
+    "material-ui-flat-pagination": "^4.0.0",
     "npm": "^6.11.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

@@ -40,9 +40,16 @@ export default function SimpleBreadcrumbs() {
             color="textPrimary"
             href="/components/breadcrumbs/"
             onClick={handleClick}
-            aria-current="page"
           >
             Classified Ads
+          </Link>
+          <Link
+            color="textPrimary"
+            href="/components/breadcrumbs/"
+            onClick={handleClick}
+            aria-current="page"
+          >
+            All Ads
           </Link>
         </Breadcrumbs>
         <div style = {{ float: 'right' }} className="viewToggle">

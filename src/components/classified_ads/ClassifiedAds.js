@@ -7,6 +7,7 @@ import AdsGrid from './AdsGrid.js';
 import CategoryExpansion from './CategoryExpansion.js';
 import Fab from '@material-ui/core/Fab';
 import { NavLink } from 'react-router-dom';
+import AdsPagination from './Pagination.js';
 
 const useStyles = makeStyles(theme => ({
     header: {
@@ -17,6 +18,32 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: '#ffbf00',
     textTransform: 'none',
   },
+  adContainer: {
+      height: '150px',
+      width: '95%',
+      backgroundColor: '#fff',
+      margin: '1rem',
+  },
+  adContainerVertical: {
+      height: '875px',
+      width: '95%',
+      backgroundColor: '#fff',
+      marginTop: '2rem',
+  },
+  adSpace: {
+      color: 'grey',
+      padding: '50% auto',
+      textAlign: 'center',
+      verticalAlign: 'middle',
+      lineHeight: "150px"
+  },
+  adSpaceVertical: {
+      color: 'grey',
+      padding: '50% auto',
+      textAlign: 'center',
+      verticalAlign: 'middle',
+      lineHeight: "875px"
+  }
 }));
 
 export default function ClassifiedAds() {
@@ -46,9 +73,16 @@ export default function ClassifiedAds() {
                     <div style={{ display: 'flex', }}>
                         <Typography component="div" style={{ backgroundColor: '#eee', width: '75%' }}>
                             <AdsGrid />
+                            <AdsPagination />
+                            <div className={classes.adContainer}>
+                                <p className={classes.adSpace}>Ad Space</p>
+                            </div>
                         </Typography>
                         <Typography component="div" style={{ backgroundColor: '#eee', width: '25%' }}>
                             <CategoryExpansion />
+                            <div className={classes.adContainerVertical}>
+                                <p className={classes.adSpaceVertical}>Ad Space</p>
+                            </div>
                         </Typography>
                     </div>
                 </Container>

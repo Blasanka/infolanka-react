@@ -21,17 +21,16 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-export default function SuccessfulPage() {
+export default function DeleteSuccess() {
     const classes = useStyles();
     return (
         <React.Fragment>
             <CssBaseline />
             <Container fixed>
                 <div className={classes.root}>
-                    <h3>Thank you for submitting to InfoLanka Classifieds!</h3>
-                    <h5>Your ad has been submitted succefully.</h5>
-                    <p>We will post your Ad soon, >provided that you used your real name (either the first or the last name).</p>
-                    <p> If you want to remove your Ad sooner please click the "remove ad" button below(also you can send us an email. Our email address is classifieds@infolanka.com)</p>
+                    <h3>Thank you for your time on InfoLanka Classifieds!</h3>
+                    <h5>Your ad delete request in review list.</h5>
+                    <p>We will let you know about the status. Thank you!.</p>
                 
                     <Link to="/classified_ads">
                         <Button variant="contained" color="default" className={classes.button} onC>
