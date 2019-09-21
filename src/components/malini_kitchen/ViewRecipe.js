@@ -26,27 +26,55 @@ const data = [
   },
   {
     src:
-      'https://i.ytimg.com/vi/kkLk2XWMBf8/hqdefault.jpg?sqp=-oaymwEYCNIBEHZIVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB4GZTFu1Ju2EPPPXnhMZtFVvYBaw',
-    title: 'Calvin Harris, Sam Smith - Promises (Official Video)',
-    channel: 'Calvin Harris',
-    views: '130 M views',
+      'http://infolanka.com/recipes/mess1/1-16.jpg',
+    title: 'Biryani II',
+    channel: 'Malini',
+    views: '12/12/2018',
     createdAt: '10 months ago',
   },
   {
     src:
-      'https://i.ytimg.com/vi/kkLk2XWMBf8/hqdefault.jpg?sqp=-oaymwEYCNIBEHZIVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB4GZTFu1Ju2EPPPXnhMZtFVvYBaw',
-    title: 'Calvin Harris, Sam Smith - Promises (Official Video)',
-    channel: 'Calvin Harris',
-    views: '130 M views',
-    createdAt: '10 months ago',
+      'http://infolanka.com/recipes/mess1/1-143.jpg',
+    title: 'Sesame Noodles with Pork and Veggies',
+    channel: 'Manourie',
+    views: '21/8/2019',
+    createdAt: '1 months ago',
   },
   {
     src:
-      'https://i.ytimg.com/vi/kkLk2XWMBf8/hqdefault.jpg?sqp=-oaymwEYCNIBEHZIVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB4GZTFu1Ju2EPPPXnhMZtFVvYBaw',
-    title: 'Calvin Harris, Sam Smith - Promises (Official Video)',
-    channel: 'Calvin Harris',
-    views: '130 M views',
-    createdAt: '10 months ago',
+      'http://infolanka.com/recipes/mess1/creamy%20s%20pasta.jpg',
+    title: 'Creamy Spaghetti Pasta',
+    channel: 'Manourie',
+    views: '21/7/2019',
+    createdAt: '2 months ago',
+  },
+];
+
+const tutorialSteps = [
+  {
+    label: 'Kola Kenda',
+    imgPath:
+      'http://infolanka.com/recipes/mess1/1-134-1.jpg',
+  },
+  {
+    label: 'Kottu Roti',
+    imgPath:
+      'http://infolanka.com/recipes/mess1/1-135.jpg',
+  },
+  {
+    label: 'Ala roti',
+    imgPath:
+      'http://infolanka.com/recipes/mess1/1-87.jpg',
+  },
+  {
+    label: 'Lamprais (Lampreys/ Lumprice)',
+    imgPath:
+      'http://infolanka.com/recipes/mess1/1-144.jpg',
+  },
+  {
+    label: 'Kaha Buth(Yellow Rice)',
+    imgPath:
+      'http://infolanka.com/recipes/mess1/1-76.jpg',
   },
 ];
 
@@ -98,7 +126,8 @@ export default function ViewRecipe({ match }) {
         <CssBaseline />
         <Container fixed>
             <h4 align='center'>{match.params.title.replace(/\_/g, ' ')}</h4>
-            <Carousel />
+            <Carousel
+              data={tutorialSteps} />
             <Box overflow="hidden" clone>
             <Paper>
                 <Box px={3}>
