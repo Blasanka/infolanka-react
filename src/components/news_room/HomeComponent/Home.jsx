@@ -26,12 +26,10 @@ import {Col, Row} from "antd";
 export default Home;
 const data = [
     {
-        name: 'Sport',
+        name: '',
         title: 'Sport',
-        imgSrc : 'https://resources.pulse.icc-cricket.com/photo-resources/2019/09/12/3c9b50a9-74ad-4750-8ec9-33c5b9ba1ac2/GettyImages-1167518065.jpg?width=2000&height=1125',
-        imgSrc2: 'https://cdn.cnn.com/cnnnext/dam/assets/190714203558-england-win-cricket-world-cup-exlarge-169.jpg',
-        imgSrc3:'',
-        imgSrc4:''
+        imgSrc : 'https://resources.pulse.icc-cricket.com/photo-resources/2019/09/12/3c9b50a9-74ad-4750-8ec9-33c5b9ba1ac2/GettyImages-1167518065.jpg?width=2000&height=1125'
+
     },
     {
         name: '',

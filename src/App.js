@@ -13,6 +13,8 @@ import SuccessfulPage from './components/classified_ads/SuccessfulPage';
 import NewRecipe from './components/malini_kitchen/NewRecipe';
 import SuccessfulPageMalini from './components/malini_kitchen/SuccessfulPage';
 import ViewRecipe from './components/malini_kitchen/ViewRecipe';
+import Explorer from "./components/news_room/Explorer/Explorera";
+import Addlink from "./components/news_room/Explorer/Addlink";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
           <Route path="/photo_gallery" component={PhotoGallery} />
           <Route path="/news_room" component={NewsRoom} />
           <Route path="/message_board" component={MessageBoard} />
+          <Route path="/explorer" component={Explorer}/>
+          <Route path="/adlink" component={Addlink}/>
         </Switch>
       </Router>
     </div>

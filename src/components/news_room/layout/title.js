@@ -10,7 +10,7 @@ export default class Footerx extends React.Component {
 
 
             <Footer style={{textAlign: 'center', backgroundColor: '#FDFEFE'}}><h2>News Room</h2></Footer>
-</React.Fragment>
-}
+        </React.Fragment>
+    }
 
 }
