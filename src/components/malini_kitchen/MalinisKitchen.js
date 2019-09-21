@@ -33,7 +33,7 @@ function MalinisKitchen() {
   const classes = useStyles();
 
   return (
-    <div className={classes.ex_hader}>
+    <div className={classes.header}>
         <React.Fragment>
             <CssBaseline />
             <Container fixed>
