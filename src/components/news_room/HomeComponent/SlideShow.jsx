@@ -1,8 +1,8 @@
 import {Carousel, Col, Row} from 'antd';
 import {Component} from "react";
 import React from 'react';
-// import c1 from '../../../../src/assests/c1.jpg';
-// import c2 from '../../../../src/assests/c2.jpg';
+import c1 from '../../../../src/assests/c1.jpg';
+import c2 from '../../../../src/assests/c2.jpg';
 
 class SlideShow extends Component {
     render() {
@@ -11,13 +11,13 @@ class SlideShow extends Component {
                 <Carousel autoplay>
                     <div>
                         <img width={1900} height={800}
-                             src="https://i2.wp.com/africarm.org/site/wp-content/uploads/2014/08/Breaking_News11.jpg" />
+                             src={c1}/>
                     </div>
                     <div>
                         <h3>2</h3>
                     </div>
                     <div>
-                        <img src="https://www.newsfirst.lk/wp-content/uploads/2018/03/TV-BG-1.jpg"/>
+                        <img src={c2}/>
                     </div>
                     <div>
                         <h3>4</h3>
