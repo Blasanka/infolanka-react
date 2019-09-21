@@ -11,34 +11,6 @@ import { autoPlay } from 'react-swipeable-views-utils';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
-const tutorialSteps = [
-  {
-    label: 'Kola Kenda',
-    imgPath:
-      'http://infolanka.com/recipes/mess1/1-134-1.jpg',
-  },
-  {
-    label: 'Kottu Roti',
-    imgPath:
-      'http://infolanka.com/recipes/mess1/1-135.jpg',
-  },
-  {
-    label: 'Ala roti',
-    imgPath:
-      'http://infolanka.com/recipes/mess1/1-87.jpg',
-  },
-  {
-    label: 'Lamprais (Lampreys/ Lumprice)',
-    imgPath:
-      'http://infolanka.com/recipes/mess1/1-144.jpg',
-  },
-  {
-    label: 'Kaha Buth(Yellow Rice)',
-    imgPath:
-      'http://infolanka.com/recipes/mess1/1-76.jpg',
-  },
-];
-
 const useStyles = makeStyles(theme => ({
   root: {
     maxWidth: '100%',
@@ -61,11 +33,11 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-function Carousel() {
+function Carousel(props) {
   const classes = useStyles();
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
-  const maxSteps = tutorialSteps.length;
+  const maxSteps = props.data.length;
 
   function handleNext() {
     setActiveStep(prevActiveStep => prevActiveStep + 1);
@@ -82,7 +54,7 @@ function Carousel() {
   return (
     <div className={classes.root}>
       <Paper square elevation={0} className={classes.header}>
-        <Typography>{tutorialSteps[activeStep].label}</Typography>
+        <Typography>{props.data[activeStep].label}</Typography>
       </Paper>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
@@ -90,7 +62,7 @@ function Carousel() {
         onChangeIndex={handleStepChange}
         enableMouseEvents
       >
-        {tutorialSteps.map((step, index) => (
+        {props.data.map((step, index) => (
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
               <img className={classes.img} src={step.imgPath} alt={step.label} />
