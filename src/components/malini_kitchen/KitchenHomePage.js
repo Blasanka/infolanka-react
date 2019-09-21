@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
         margin: '0 auto',
     },
     fbPage: {
-        height: '170px',
+        height: '150px',
         width: '100%',
         backgroundColor: '#eeeeee',
     },
@@ -43,7 +43,7 @@ const useStyles = makeStyles(theme => ({
         padding: '50% auto',
         textAlign: 'center',
         verticalAlign: 'middle',
-        lineHeight: "170px"
+        lineHeight: "150px"
     }
 }));
 
