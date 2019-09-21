@@ -171,7 +171,10 @@ export default function MenuAppBar() {
                   Malini's Kitchen
                 </MenuItem>
                 <MenuItem component={NavLink} to="/message_board" onClick={handleClose}>
-                  Message Board
+                  Message Boardd
+                </MenuItem>
+                <MenuItem component={NavLink} to="/joke_page" onClick={handleClose}>
+                  Joke page
                 </MenuItem>
               </Menu>
             </div>

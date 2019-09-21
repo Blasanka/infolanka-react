@@ -34,7 +34,7 @@ export default function SuccessfulPage() {
                     <p> If you want to remove your Ad sooner please click the "remove ad" button below(also you can send us an email. Our email address is classifieds@infolanka.com)</p>
                 
                     <Link to="/classified_ads">
-                        <Button variant="contained" color="default" className={classes.button} onC>
+                        <Button variant="contained" color="default" className={classes.button} >
                             <span className="actions"><VisibilityIcon /> <p>View all ads</p></span>
                             {/* component={NavLink} to="/pont_new/success" */}
                         </Button>

@@ -16,7 +16,11 @@ import NewRecipe from './components/malini_kitchen/NewRecipe';
 import SuccessfulPageMalini from './components/malini_kitchen/SuccessfulPage';
 import ViewRecipe from './components/malini_kitchen/ViewRecipe';
 import Explorer from "./components/news_room/Explorer/Explorera";
+import Success from './components/news_room/Explorer/Success';
 import Addlink from "./components/news_room/Explorer/Addlink";
+import Joke from './components/joke/Joketable';
+import Form from './components/joke/Joke_page';
+import Add from './components/joke/Addbtn';
 
 function App() {
   return (
@@ -38,8 +42,12 @@ function App() {
           <Route path="/photo_gallery" component={PhotoGallery} />
           <Route path="/news_room" component={NewsRoom} />
           <Route path="/message_board" component={MessageBoard} />
-          <Route path="/explorer" component={Explorer}/>
+          <Route path="/explorer" exact component={Explorer}/>
+          <Route path="/explorer/addlink/success" component={Success} />
           <Route path="/adlink" component={Addlink}/>
+          <Route path="/joke_page" exact component={Joke} />
+          <Route path="/joke_page/form"exact component={Form} />
+          <Route path="/joke_page/form/add"exact component={Add} />
         </Switch>
       </Router>
     </div>

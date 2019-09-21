@@ -70,7 +70,7 @@ export default function PostNewAd() {
     <CssBaseline />
     <Container fixed>
     <div className="root">
-        <h3>Post new ad</h3>
+        <h3>Post new add</h3>
         <form className={classes.container} noValidate autoComplete="off">
             <label>Fill in the blanks below to submit your Ad to infolanka Classifieds. Thanks!</label>
             <TextField
