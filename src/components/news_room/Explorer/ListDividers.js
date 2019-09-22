@@ -78,10 +78,7 @@ export default function ListDividers() {
             <ListItem button  >
                 <Link to={'/adlink'}> <ListItemText primary="Religion" /></Link>
             </ListItem>
-            <Divider light />
-            <ListItem button>
-                <ListItemText primary="Add link" />
-            </ListItem>
+            
         </List>
     );
 }
