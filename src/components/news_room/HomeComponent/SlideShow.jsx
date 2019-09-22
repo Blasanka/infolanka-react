@@ -6,7 +6,7 @@ import c2 from '../../../../src/assests/c2.jpg';
 
 class SlideShow extends Component {
     render() {
-        return <div style={{width:"'100%"}}>
+        return <div style={{width: "'100%"}}>
             <Row>
                 <Carousel autoplay>
                     <div>
@@ -14,17 +14,19 @@ class SlideShow extends Component {
                              src={c1}/>
                     </div>
                     <div>
-                        <h3>2</h3>
+                        <img src={c2}/>
+                    </div>
+                    <div>
+                        <img width={1900} height={800}
+                             src={c1}/>
                     </div>
                     <div>
                         <img src={c2}/>
                     </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
                 </Carousel>
             </Row>
-        </div>
+        </div>;
+
     }
 }
 export default SlideShow;
