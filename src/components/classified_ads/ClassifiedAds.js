@@ -6,6 +6,7 @@ import Container from '@material-ui/core/Container';
 import AdsGrid from './AdsGrid.js';
 import CategoryExpansion from './CategoryExpansion.js';
 import Fab from '@material-ui/core/Fab';
+import { NavLink } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
     header: {
@@ -34,7 +35,9 @@ export default function ClassifiedAds() {
                                 size="medium"
                                 color="secondary"
                                 aria-label="add"
-                                className={classes.margin}>
+                                className={classes.margin}
+                                component = { NavLink }
+                                to= "/classified-ads/new-ad">
                                 <Typography>Post an ad</Typography>
                             </Fab>
                         </div>
