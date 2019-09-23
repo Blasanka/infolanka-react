@@ -3,15 +3,17 @@ import {Component} from "react";
 import React from 'react';
 import c1 from '../../../../src/assests/c1.jpg';
 import c2 from '../../../../src/assests/c2.jpg';
+import c3 from '../../../../src/assests/c3.jpg';
 
 class SlideShow extends Component {
+
     render() {
         return <div style={{width: "'100%"}}>
             <Row>
                 <Carousel autoplay>
                     <div>
                         <img width={1900} height={800}
-                             src={c1}/>
+                             src={c3}/>
                     </div>
                     <div>
                         <img src={c2}/>
