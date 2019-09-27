@@ -1,21 +1,31 @@
 import React from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-import Home from './HomeComponent/Home';
-import Nav from "./layout/Nav";
-import Footerx from "./layout/title";
 import {Layout} from "antd";
-import Footery from "./layout/Footery";
 import Manu from "./layout/Manu";
-import {switchCase} from "@babel/types";
+import SlideShow from "./HomeComponent/SlideShow";
+import Home from "./HomeComponent/Home";
+import { Row, Col } from 'antd';
+
 
 
 function NewsRoom() {
   return (
       <Layout className="layout">
+          <Row>
+              <Manu/>
+          </Row>
+          <Row>
+              <Col span = {2}></Col>
+              <Col span ={20}>
+                  <SlideShow/>
+              </Col>
+              <Col span ={2}></Col>
+          </Row>
 
-          <Manu/>
+          {/*<SlideShow/>*/}
+          {/*<Cardtest/>*/}
           <Home/>
-          <Footery/>
+
 
       </Layout>
 

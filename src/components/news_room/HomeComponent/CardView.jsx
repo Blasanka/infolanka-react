@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import {Card, Row, Col} from 'antd';
 
 
+import RecipeReviewCard from "./card";
+
+
 class CardView extends Component{
     render() {
         return <div>
@@ -11,17 +14,19 @@ class CardView extends Component{
                </Row>
                <Row>
                    <Col { ...imgRes}>
-                       <img src={this.props.imgSrc} height={150} width={250} alt={this.props.name}/>
+                       <RecipeReviewCard/>
+
                    </Col>
                    <Col { ...imgRes}>
-                       <img src={this.props.imgSrc} height={150} width={250} alt={this.props.name}/>
+                       <RecipeReviewCard/>
                    </Col>
                    <Col { ...imgRes}>
-                       <img src={this.props.imgSrc} height={150} width={250} alt={this.props.name}/>
+                       <RecipeReviewCard/>
                    </Col>
                    <Col { ...imgRes}>
-                       <img src={this.props.imgSrc} height={150} width={250} alt={this.props.name}/>
+                       <RecipeReviewCard/>
                    </Col>
+
                </Row>
                <Row><Col><h3>{this.props.name}</h3></Col></Row>
            </Card>

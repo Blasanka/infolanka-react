@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardView from "./CardView";
 import './style.css';
 import {Col, Row} from "antd";
+import YouTube from "./Newcard";
 
     class Home extends Component{
     renderProfiles = () => {     //dynamical view of carts
@@ -10,7 +11,9 @@ import {Col, Row} from "antd";
                 <CardView name={item.name} title={item.title} /*description={item.desc}*/
                           imgSrc={item.imgSrc}
                 />
+                <YouTube/>
             </Col>
+
 
         })
     }
@@ -20,18 +23,17 @@ import {Col, Row} from "antd";
             {/*imgSrc={'https://cbsnews1.cbsistatic.com/hub/i/2018/11/06/0c1af1b8-155a-458e-b105-78f1e7344bf4/2018-11-06t054310z-1334124005-rc1be15a8050-rtrmadp-3-people-sexiest-man.jpg'}*/}
             {/*/>*/}
             {this.renderProfiles()}
+            {/*<YouTube/>*/}
         </Row>
     }
 }
 export default Home;
 const data = [
     {
-        name: 'Sport',
+        name: '',
         title: 'Sport',
-        imgSrc : 'https://resources.pulse.icc-cricket.com/photo-resources/2019/09/12/3c9b50a9-74ad-4750-8ec9-33c5b9ba1ac2/GettyImages-1167518065.jpg?width=2000&height=1125',
-        imgSrc2: 'https://cdn.cnn.com/cnnnext/dam/assets/190714203558-england-win-cricket-world-cup-exlarge-169.jpg',
-        imgSrc3:'',
-        imgSrc4:''
+        imgSrc : 'https://resources.pulse.icc-cricket.com/photo-resources/2019/09/12/3c9b50a9-74ad-4750-8ec9-33c5b9ba1ac2/GettyImages-1167518065.jpg?width=2000&height=1125'
+
     },
     {
         name: '',

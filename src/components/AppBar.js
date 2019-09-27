@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
   },
   appBar: {
-    backgroundColor: '#4D75B2',
+    backgroundColor: '#3a0f79',
   },
   toolbarButtons: {
     marginLeft: 'auto',

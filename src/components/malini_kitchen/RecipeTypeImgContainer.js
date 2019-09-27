@@ -127,7 +127,7 @@ export default function RecipeTypeImgContainer() {
             width: image.width,
           }}
         > {(image.title !== "Message Board") ? (
-        <Link to={`/malini_kitchen/${image.title.replace(/\s/g, '_')}`}>
+         <Link to={`/malini_kitchen/${image.title.replace(/\s/g, '_')}`}>
           <span
             className={classes.imageSrc}
             style={{

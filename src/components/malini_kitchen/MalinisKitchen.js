@@ -33,8 +33,9 @@ function MalinisKitchen() {
   const classes = useStyles();
 
   return (
-    <div className={classes.header}>
+    <div className={classes.ex_hader}>
         <React.Fragment>
+
             <CssBaseline />
             <Container fixed>
                 <RecipeTypeImgContainer className={classes.header} />
