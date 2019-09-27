@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
         margin: '0 auto',
     },
     fbPage: {
-        height: '170px',
+        height: '150px',
         width: '100%',
         backgroundColor: '#eeeeee',
     },
@@ -43,14 +43,15 @@ const useStyles = makeStyles(theme => ({
         padding: '50% auto',
         textAlign: 'center',
         verticalAlign: 'middle',
-        lineHeight: "170px"
+        lineHeight: "150px"
     }
 }));
 
-export default function SuccessfulPage() {
+export default function KitchenHomePage() {
     const classes = useStyles();
     return (
-        <React.Fragment className={classes.root}>
+        // className={classes.root}
+        <React.Fragment>
             <CssBaseline />
             <Container fixed>
                 <div className={classes.leftContainer}>

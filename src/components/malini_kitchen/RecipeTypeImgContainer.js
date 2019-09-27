@@ -127,7 +127,7 @@ export default function RecipeTypeImgContainer() {
             width: image.width,
           }}
         > {(image.title !== "Message Board") ? (
-        <Link to={`/malini_kitchen/${image.title.replace(/\s/g, '_')}`}>
+        <Link to={`/malini_kitchen/category/${image.title.replace(/\s/g, '_')}`}>
           <span
             className={classes.imageSrc}
             style={{
@@ -148,7 +148,7 @@ export default function RecipeTypeImgContainer() {
             </Typography>
           </span></Link>
           ) 
-          : <Link to={`/malini_kitchen/${image.title.replace(/\s/g, '_')}`}>
+          : <Link to={`/malini_kitchen/category/${image.title.replace(/\s/g, '_')}`}>
               <span
                 className={classes.imageSrc}
                 style={{
@@ -164,8 +164,7 @@ export default function RecipeTypeImgContainer() {
                   className={classes.imageTitle}
                 >
                   {image.title}
-                  <span className={classes.imageMarked}
-                  />
+                  <span className={classes.imageMarked} />
                 </Typography>
               </span>
           </Link>}

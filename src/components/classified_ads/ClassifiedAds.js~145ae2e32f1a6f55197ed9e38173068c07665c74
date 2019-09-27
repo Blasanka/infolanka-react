@@ -37,7 +37,7 @@ export default function ClassifiedAds() {
                                 //aria-label="add"
                                 className={classes.margin}
                                 component = { NavLink }
-                                to= "/classified-ads/new-ad">
+                                to= "/classified_ads/new-ad">
                                 <Typography>Post an add</Typography>
                             </Fab>
                         </div>

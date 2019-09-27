@@ -12,6 +12,7 @@ const useStyles = makeStyles(theme => ({
     root: {
       flexGrow: 1,
       padding: '2rem',
+      minHeight: 440
     },
     button: {
         marginRight: '0.5rem',
@@ -39,7 +40,7 @@ export default function SuccessfulPage() {
                             {/* component={NavLink} to="/pont_new/success" */}
                         </Button>
                     </Link>
-                    <Link to="/classified-ads/ad/5/delete">
+                    <Link to="/classified_ads/ad/5/delete">
                         <Button variant="contained" color="default" className={classes.button}>
                             <span className="actions"><DeleteIcon /> <p>Delete this ad</p></span>
                         </Button>

@@ -2,12 +2,11 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import AdCard from './AdCard.js';
-import SimpleBreadcrumbs from './BreadCrumb.js';
 
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    padding: '1rem',
+    padding: '.4rem .4rem .9rem 1rem',
   },
   paper: {
     padding: theme.spacing(2),
@@ -16,47 +15,29 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function AdsGrid() {
+export default function AdsGrid(props) {
   const classes = useStyles();
   // const iconPath = process.env.PUBLIC_URL + '/assets/forsale.jpg';
-
   function FormRow() {
     return (
       <React.Fragment>
-        <Grid item xs={4}>
-          <AdCard
-            iconPath = 'https://image.shutterstock.com/z/stock-photo-land-for-sale-sign-against-trimmed-lawn-background-452056954.jpg'
-            title = 'Land for sale'
-            price = 'Rs. 27, 00000'
-            location = 'Polgahawela'
-            postedDate = '27-08-2019'
-          />
-        </Grid>
-        <Grid item xs={4}>
-          <AdCard
-            iconPath = 'https://image.shutterstock.com/z/stock-photo-a-cg-render-of-a-generic-luxury-sedan-136209296.jpg'
-            title = 'Vehicle for rent'
-            price = 'Rs. 2000'
-            location = 'Colombo'
-            postedDate = '26-08-2019'
-          />
-        </Grid>
-        <Grid item xs={4}>
-          <AdCard
-            iconPath = 'https://image.shutterstock.com/z/stock-photo-land-for-sale-sign-against-trimmed-lawn-background-452056954.jpg'
-            title = 'Land for sale'
-            price = 'Rs. 27, 00000'
-            location = 'Polgahawela'
-            postedDate = '27-08-2019'
-          />
-        </Grid>
+        {
+          props.data.result.map((ad) => {
+            return (
+              <Grid item xs={4}>
+                <AdCard
+                  data = {ad}
+                />
+              </Grid>
+            );
+          })
+        }
       </React.Fragment>
     );
   }
 
   return (
     <div className={classes.root}>
-      <SimpleBreadcrumbs />
       <Grid container spacing={1}>
         <Grid container item xs={12} spacing={2}>
           <FormRow />

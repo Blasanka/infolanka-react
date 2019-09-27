@@ -1,0 +1,25 @@
+{
+  "result": [
+    {
+      "iconPath": "https://image.shutterstock.com/z/stock-photo-land-for-sale-sign-against-trimmed-lawn-background-452056954.jpg",
+      "title": "Land for sale",
+      "price": "Rs. 27, 00000",
+      "location": "Polgahawela",
+      "postedDate": "27-08-2019"
+    },
+    {
+      "iconPath": "https://image.shutterstock.com/z/stock-photo-a-cg-render-of-a-generic-luxury-sedan-136209296.jpg",
+      "title": "Vehicle for rent",
+      "price": "Rs. 2000",
+      "location": "Colombo",
+      "postedDate": "26-08-2019"
+    },
+    {
+      "iconPath": "https://image.shutterstock.com/z/stock-photo-land-for-sale-sign-against-trimmed-lawn-background-452056954.jpg",
+      "title": "Land for sale",
+      "price": "Rs. 27, 00000",
+      "location": "Polgahawela",
+      "postedDate": "27-08-2019"
+    }
+  ]
+}

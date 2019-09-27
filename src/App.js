@@ -21,6 +21,9 @@ import Addlink from "./components/news_room/Explorer/Addlink";
 import Joke from './components/joke/Joketable';
 import Form from './components/joke/Joke_page';
 import Add from './components/joke/Addbtn';
+import DetailedRecipe from './components/malini_kitchen/DetailedRecipe.js';
+import DetailedAd from './components/classified_ads/DetailedAd';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -30,15 +33,17 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/classified_ads" exact component={ClassifiedAds} />
-          <Route path="/classified-ads/new-ad" exact component={PostNewAd} />
-          <Route path='/classified-ads/ad/5/delete' exact component={DeleteAd} />
-          <Route path="/classified-ads/post_new/success" exact component={SuccessfulPage} />
-          <Route path='/classified-ads/delete/success' exact component={DeleteSuccess} />
+          <Route path="/classified_ads/new-ad" exact component={PostNewAd} />
+          <Route path='/classified_ads/:title' exact component={DetailedAd} />
+          <Route path='/classified_ads/ad/5/delete' exact component={DeleteAd} />
+          <Route path="/classified_ads/post_new/success" exact component={SuccessfulPage} />
+          <Route path='/classified_ads/delete/success' exact component={DeleteSuccess} />
+          <Route path="/malinis_kitchen/:title" exact component={DetailedRecipe} />
           <Route path="/malinis_kitchen" exact component={MalinisKitchen} />
           <Route path="/malini_kitchen/new" exact component={NewRecipe} />
           <Route path="/malini_kitchen/Message_Board" exact component={MessageBoard} />
-          <Route path="/malini_kitchen/:title" exact component={ViewRecipe} />
-          <Route path="/malinis_kitchen/new/success" component={SuccessfulPageMalini} />
+          <Route path="/malini_kitchen/category/:title" exact component={ViewRecipe} />
+          <Route path="/malinis_kitchen/new/success" exact component={SuccessfulPageMalini} />
           <Route path="/photo_gallery" component={PhotoGallery} />
           <Route path="/news_room" component={NewsRoom} />
           <Route path="/message_board" component={MessageBoard} />
@@ -50,6 +55,7 @@ function App() {
           <Route path="/joke_page/form/add"exact component={Add} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }
