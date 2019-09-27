@@ -5,8 +5,7 @@ import ListItem from '@material-ui/core/ListItem';
 import Divider from '@material-ui/core/Divider';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar';
-import Typography from '@material-ui/core/Typography';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -22,22 +21,33 @@ const useStyles = makeStyles(theme => ({
   recipeImg: {
       width: '35px',
       height: '35px,'
+  },
+  link: {
+    color: '#444'
   }
 }));
 
 export default function AlignItemsList() {
   const classes = useStyles();
 
+  const data = {
+    title: "Shoe Flower Drink",
+    by: "— Posted by Malini",
+    imgUrl: "http://www.infolanka.com/recipes/mess5/5-107-1.jpg",
+    description: "4-5 Shoe Flower  2 Limes, squeezed Sugar to taste"
+  };
+
   return (
     <List className={classes.root}>
       <h5>Recent Recipe</h5>
+      <Link className={classes.link} to={{ pathname: `/malinis_kitchen/${data.title.replace(/\s/g, '_')}`, state: {data} }}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           {/* <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" /> */}
-          <img src="http://www.infolanka.com/recipes/mess5/5-107-1.jpg" className={classes.recipeImg} alt='avator' />
+          <img src={data.imgUrl} className={classes.recipeImg} alt='avator' />
         </ListItemAvatar>
         <ListItemText
-          primary="Shoe Flower Drink"
+          primary={data.title}
           secondary={
             <React.Fragment>
               {/* <Typography
@@ -48,11 +58,12 @@ export default function AlignItemsList() {
               >
                 Ali Connors
               </Typography> */}
-              {" — Posted by Malini"}
+              {`${data.by}`}
             </React.Fragment>
           }
         />
       </ListItem>
+      </Link>
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemAvatar>

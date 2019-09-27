@@ -1,4 +1,12 @@
-How to get the project
+# To pull latest changes to forked repo, use following commands:
+  - `git add .`
+  - `git commit -m "your commit message if there are updated files"`
+  - `git remote add upstream https://github.com/Blasanka/infolanka-react.git`
+  - `git fetch upstream `
+  - `git merge upstream/master`
+  Learn more: <a href="https://help.github.com/en/articles/configuring-a-remote-for-a-fork">configure a remote that points to the upstream repository</a>, then <a href="https://help.github.com/en/articles/syncing-a-fork">syncing master repo to the fork repo</a>.
+  
+# How to get the project
   - First fork this repo to your account
   - clone it using, your fork repo (git clone https://github.com/your_username/infolanka-react.git)
   - Follow below step to run the project

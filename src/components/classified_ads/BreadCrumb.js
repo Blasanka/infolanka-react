@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Link from '@material-ui/core/Link';
 import GridOnIcon from '@material-ui/icons/GridOn';
@@ -12,6 +11,7 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'center',
     flexWrap: 'wrap',
     padding: theme.spacing(1, 0),
+    marginLeft: '1rem',
   },
   paper: {
     padding: theme.spacing(1, 2),
@@ -26,7 +26,7 @@ function handleClick(event) {
   alert('You clicked a breadcrumb.');
 }
 
-export default function SimpleBreadcrumbs() {
+export default function SimpleBreadcrumbs(props) {
   const classes = useStyles();
 
   return (
@@ -40,16 +40,23 @@ export default function SimpleBreadcrumbs() {
             color="textPrimary"
             href="/components/breadcrumbs/"
             onClick={handleClick}
-            aria-current="page"
           >
             Classified Ads
           </Link>
+          <Link
+            color="textPrimary"
+            href="/components/breadcrumbs/"
+            onClick={handleClick}
+            aria-current="page"
+          >
+            {props.subRouteName}
+          </Link>
         </Breadcrumbs>
         <div style = {{ float: 'right' }} className="viewToggle">
-            <span style = {{ fontSize: 18,  }} >View: </span>
-            <GridOnIcon style = {{ fontSize: 22, marginTop: '2px', }} />
+            <span style = {{ fontSize: 16, marginTop: '3px', }} >View: </span>
+            <GridOnIcon fontSize="small" onClick={props.handleGrid} />
             <span> </span>
-            <ListIcon style = {{ fontSize: 22, marginTop: '2px', }} />
+            <ListIcon onClick={props.handleList} />
         </div>
       </Paper>
     </div>

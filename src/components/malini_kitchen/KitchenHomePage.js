@@ -47,10 +47,11 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
-export default function SuccessfulPage() {
+export default function KitchenHomePage() {
     const classes = useStyles();
     return (
-        <React.Fragment className={classes.root}>
+        // className={classes.root}
+        <React.Fragment>
             <CssBaseline />
             <Container fixed>
                 <div className={classes.leftContainer}>

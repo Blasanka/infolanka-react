@@ -7,6 +7,7 @@ export default class ExplorerHeader extends React.Component {
     render() {
         return <React.Fragment>
             <Header style={{textAlign: 'center', backgroundColor: '#b2cbfe'}}><h2>Sri Lanka Explorer</h2></Header>
+
             
         </React.Fragment>
     }

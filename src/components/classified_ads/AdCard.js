@@ -4,12 +4,13 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
+// import Button from '@material-ui/core/Button';
+// import Dialog from '@material-ui/core/Dialog';
+// import DialogActions from '@material-ui/core/DialogActions';
+// import DialogContent from '@material-ui/core/DialogContent';
+// import DialogContentText from '@material-ui/core/DialogContentText';
+// import DialogTitle from '@material-ui/core/DialogTitle';
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -33,55 +34,52 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 export default function AdCard(props) {
-  const iconPath = props.iconPath;
-  const title = props.title;
-  const price = props.price;
-  const location = props.location;
-  const postedDate = props.postedDate;
-  const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
-  const [fullWidth, setFullWidth] = React.useState(true);
-  const [maxWidth, setMaxWidth] = React.useState('md');
+  const data = props.data;
+  // const classes = useStyles();
+  // const [open, setOpen] = React.useState(false);
+  // const [fullWidth, setFullWidth] = React.useState(true);
+  // const [maxWidth, setMaxWidth] = React.useState('md');
 
-  function handleClickOpen() {
-    setOpen(true);
-  }
+  // function handleClickOpen() {
+  //   setOpen(true);
+  // }
 
-  function handleClose() {
-    setOpen(false);
-  }
+  // function handleClose() {
+  //   setOpen(false);
+  // }
 
-  function handleMaxWidthChange(event) {
-    setMaxWidth(event.target.value);
-  }
+  // function handleMaxWidthChange(event) {
+  //   setMaxWidth(event.target.value);
+  // }
 
-  function handleFullWidthChange(event) {
-    setFullWidth(event.target.checked);
-  }
+  // function handleFullWidthChange(event) {
+  //   setFullWidth(event.target.checked);
+  // }
 
   return (
-    <div>
-    <Card className={useStyles.card} style={{maxWidth: 345,}} onClick={handleClickOpen}>
+    <Link to={{ pathname: `/classified_ads/${data.title.replace(/\s/g, '_')}`, state: {data} }}>
+    <Card className={useStyles.card} style={{maxWidth: 345,}}>
+    {/* onClick={handleClickOpen}> */}
       <CardActionArea>
-        <img src={iconPath} style={{height: 210, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: '50% 50%'}} alt={"Ad pic"} />
+        <img src={data.iconPath} style={{height: 210, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: '50% 50%'}} alt={"Ad pic"} />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            {title}
+          <Typography gutterBottom variant="h5" component="h3">
+            {data.title}
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
-            {price}
+            {data.price}
           </Typography>
           <Typography variant="body1" color="textSecondary" component="p">
-            {location}
+            {data.location}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Posted on: {postedDate}
+            Posted on: {data.postedDate}
           </Typography>
         </CardContent>
       </CardActionArea>
     </Card>
     
-    <Dialog
+    {/* <Dialog
       fullWidth={fullWidth}
       maxWidth={maxWidth}
       open={open}
@@ -128,7 +126,7 @@ export default function AdCard(props) {
           Close
         </Button>
       </DialogActions>
-    </Dialog>
-    </div>
+    </Dialog> */}
+    </Link>
   );
 }

@@ -25,17 +25,27 @@ export default function AdsGrid() {
         <Grid item xs={4}>
           <RecipeCard
           title="Pasta Dough"
-          by="Dinidu 10/06/2012" />
+          by="Dinidu . 10/06/2012"
+          imgUrl="https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Tomato-and-Spinach-Pasta-V1.jpg"
+          description="Mound 200g flour in the center of a large wooden cutting board.
+          Make a well in the middle of the flour & add the eggs, olive oil & salt by using a fork, beat together the eggs, olive oil & salt & begin to incorporate the flour, starting with the inner rim of the well. " />
         </Grid>
         <Grid item xs={4}>
           <RecipeCard
           title="Six Minute Corn Bread"
-          by="Madu 4/03/2012" />
+          by="Madu . 4/03/2012"
+          imgUrl="https://images-gmi-pmc.edge-generalmills.com/204864b0-a495-4797-afcc-0e9b0b2cbb94.jpg"
+          description="Mix flour, corn flour, baking powder, salt, sugar, egg, milk, vegetable oil, Vanilla and Sultanas (if using) in a Microwave safe bowl.
+          Whisk thoroughly." />
         </Grid>
         <Grid item xs={4}>
           <RecipeCard
           title="Rice &amp; Beans"
-          by="Marie Williams 10/06/2012" />
+          by="Marie Williams . 10/06/2012"
+          imgUrl="https://thumbs.dreamstime.com/b/rice-bread-seed-plant-genus-found-asia-scientific-name-oryza-sativa-major-food-crop-40320418.jpg"
+          description="Wash and soak rice for about 15 minutes.
+          In a sauce pan (recommend you to get a large pan) put oil and then add onion let it fry for a minute and add the bell pepper, celery, tomato.
+          Fry for another minute." />
         </Grid>
       </React.Fragment>
     );

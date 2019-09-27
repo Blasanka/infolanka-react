@@ -119,7 +119,7 @@ export default function TabsContainer() {
           aria-label="action tabs example"
         >
           <Tab label="Malini's Kitchen" {...a11yProps(0)} />
-          <Tab label="Recipes" {...a11yProps(1)} />
+          <Tab label="Popular Recipes" {...a11yProps(1)} />
           <Tab label="Add new reciepe" {...a11yProps(2)} />
         </Tabs>
       </AppBar>

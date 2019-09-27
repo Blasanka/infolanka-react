@@ -8,6 +8,8 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import Grid from '@material-ui/core/Grid';
+import { Link } from "react-router-dom";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -23,13 +25,38 @@ const useStyles = makeStyles(theme => ({
     paddingLeft: theme.spacing(4),
     backgroundColor: theme.palette.background.default,
   },
-  img: {
-    height: 255,
-    display: 'block',
-    maxWidth: '100%',
-    overflow: 'hidden',
-    width: '100%',
-    objectFit: 'cover'
+  // img: {
+  //   height: 255,
+  //   display: 'block',
+  //   maxWidth: '100%',
+  //   overflow: 'hidden',
+  //   width: '100%',
+  //   objectFit: 'cover'
+  // },
+  overlay: {
+    position: 'absolute',
+    top: 0,
+    bottom: 0,
+    right: 0,
+    left: 0,
+    backgroundColor: 'rgba(0,0,0,.3)',
+  },
+  mainFeaturedPost: {
+    position: 'relative',
+    backgroundColor: theme.palette.grey[800],
+    color: theme.palette.common.white,
+    marginBottom: theme.spacing(0),
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  },
+  mainFeaturedPostContent: {
+    position: 'relative',
+    padding: theme.spacing(3),
+    [theme.breakpoints.up('md')]: {
+      padding: theme.spacing(6),
+      paddingRight: 0,
+    },
   },
 }));
 
@@ -53,23 +80,9 @@ function Carousel(props) {
 
   return (
     <div className={classes.root}>
-      <Paper square elevation={0} className={classes.header}>
+      {/* <Paper square elevation={0} className={classes.header}>
         <Typography>{props.data[activeStep].label}</Typography>
-      </Paper>
-      <AutoPlaySwipeableViews
-        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-        index={activeStep}
-        onChangeIndex={handleStepChange}
-        enableMouseEvents
-      >
-        {props.data.map((step, index) => (
-          <div key={step.label}>
-            {Math.abs(activeStep - index) <= 2 ? (
-              <img className={classes.img} src={step.imgPath} alt={step.label} />
-            ) : null}
-          </div>
-        ))}
-      </AutoPlaySwipeableViews>
+      </Paper> */}
       <MobileStepper
         steps={maxSteps}
         position="static"
@@ -88,6 +101,42 @@ function Carousel(props) {
           </Button>
         }
       />
+      <AutoPlaySwipeableViews
+        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        index={activeStep}
+        onChangeIndex={handleStepChange}
+        enableMouseEvents
+      >
+        {props.data.map((step, index) => (
+          <div key={step.label}>
+            {Math.abs(activeStep - index) <= 2 ? (
+              <Paper className={classes.mainFeaturedPost} style={{ backgroundImage: `url(${step.iconPath})` }}>
+                {/* Increase the priority of the hero background image */}
+                {
+                  <img className={classes.img} style={{ display: 'none',  }} src={step.iconPath} alt={step.label} />
+                }
+                <div className={classes.overlay} />
+                <Grid container>
+                  <Grid item md={6}>
+                    <div className={classes.mainFeaturedPostContent}>
+                      <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                        {step.label}
+                      </Typography>
+                      <Typography variant="h5" color="inherit" paragraph>
+                        Multiple lines of text that form the lede, informing new readers quickly and
+                        efficiently about what&apos;s this web app provide as main categories t&apos;s contents.
+                      </Typography>
+                      <Link variant="subtitle1" href="#">
+                        Discover
+                      </Link>
+                    </div>
+                  </Grid>
+                </Grid>
+              </Paper>
+            ) : null}
+          </div>
+        ))}
+      </AutoPlaySwipeableViews>
     </div>
   );
 }
