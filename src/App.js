@@ -10,20 +10,48 @@ import NewsRoom from './components/news_room/NewsRoom';
 import MessageBoard from './components/message_board/MessageBoard';
 import Signin from './components/message_board/signin'
 import Register from './components/message_board/Register'
+import PostNewAd from './components/classified_ads/PostNewAd';
+import SuccessfulPage from './components/classified_ads/SuccessfulPage';
+import DeleteAd from './components/classified_ads/DeleteAd.js';
+import DeleteSuccess from './components/classified_ads/DeleteSuccess';
+import NewRecipe from './components/malini_kitchen/NewRecipe';
+import SuccessfulPageMalini from './components/malini_kitchen/SuccessfulPage';
+import ViewRecipe from './components/malini_kitchen/ViewRecipe';
+import Explorer from "./components/news_room/Explorer/Explorera";
+import Success from './components/news_room/Explorer/Success';
+import Addlink from "./components/news_room/Explorer/Addlink";
+//import Joke from './components/joke/Joketable';
+import Form from './components/joke/Joke_page';
+import Add from './components/joke/Addbtn';
+
 function App() {
   return (
     <div>
       <Router>
         <MenuAppBar className="App" />
         <Switch>
-          <Route path="/classified_ads" component={ClassifiedAds} />
-          <Route path="/malinis_kitchen" component={MalinisKitchen} />
+          <Route path="/" exact component={Home} />
+          <Route path="/classified_ads" exact component={ClassifiedAds} />
+          <Route path="/classified-ads/new-ad" exact component={PostNewAd} />
+          <Route path='/classified-ads/ad/5/delete' exact component={DeleteAd} />
+          <Route path="/classified-ads/post_new/success" exact component={SuccessfulPage} />
+          <Route path='/classified-ads/delete/success' exact component={DeleteSuccess} />
+          <Route path="/malinis_kitchen" exact component={MalinisKitchen} />
+          <Route path="/malini_kitchen/new" exact component={NewRecipe} />
+          <Route path="/malini_kitchen/Message_Board" exact component={MessageBoard} />
+          <Route path="/malini_kitchen/:title" exact component={ViewRecipe} />
+          <Route path="/malinis_kitchen/new/success" component={SuccessfulPageMalini} />
+          <Route path="/message_board" exact component={MessageBoard} />
+          <Route path="/message_board/Signin" exact component={Signin} />
+          <Route path="/message_board/Register" exact component={Register} />
           <Route path="/photo_gallery" component={PhotoGallery} />
           <Route path="/news_room" component={NewsRoom} />
-          <Route path="/message_board" exact component={MessageBoard} />
-          <Route path="/message_board/Signin" component={Signin} />
-          <Route path="/message_board/Register" component={Register} />
-          <Route path="/" exact component={Home} />
+          <Route path="/message_board" component={MessageBoard} />
+          <Route path="/explorer" exact component={Explorer}/>
+          <Route path="/explorer/addlink/success" component={Success} />
+          <Route path="/adlink" component={Addlink}/>
+          <Route path="/joke_page/form"exact component={Form} />
+          <Route path="/joke_page/form/add"exact component={Add} />
         </Switch>
       </Router>
     </div>

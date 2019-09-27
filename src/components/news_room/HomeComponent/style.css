@@ -3,3 +3,30 @@
     line-height: 25pt;
     color: rgba(108, 19, 48, 0.62);
 }
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 400px;
+    line-height: 160px;
+    backgroundi: #084779;
+    overflow: hidden;
+
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #6f86ff;
+}
+.video-item img{
+    max-width: 64px;
+}
+
+.video-detail .details{
+    height: 600px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.test{
+    height: 400Px;
+    width: 100%;
+}
