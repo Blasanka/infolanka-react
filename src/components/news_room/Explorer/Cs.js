@@ -1,122 +1,249 @@
 import React from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import MobileStepper from '@material-ui/core/MobileStepper';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
+import MenuItem from '@material-ui/core/MenuItem';
+import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
-import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
-import SwipeableViews from 'react-swipeable-views';
-import { autoPlay } from 'react-swipeable-views-utils';
-
-const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
-
-const tutorialSteps = [
-    {
-        label: 'San Francisco – Oakland Bay Bridge, United States',
-        imgPath:
-            'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
-    },
-    {
-        label: 'Bird',
-        imgPath:
-            'https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60',
-    },
-    {
-        label: 'Bali, Indonesia',
-        imgPath:
-            'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250&q=80',
-    },
-    {
-        label: 'NeONBRAND Digital Marketing, Las Vegas, United States',
-        imgPath:
-            'https://images.unsplash.com/photo-1518732714860-b62714ce0c59?auto=format&fit=crop&w=400&h=250&q=60',
-    },
-    {
-        label: 'Goč, Serbia',
-        imgPath:
-            'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
-    },
-];
+import {NavLink} from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
     root: {
-        maxWidth: 400,
         flexGrow: 1,
+        padding: '2rem',
     },
-    header: {
-        display: 'flex',
-        alignItems: 'center',
-        height: 20,
-        paddingLeft: theme.spacing(4),
-        backgroundColor: theme.palette.background.default,
+    textField: {
+        marginLeft: theme.spacing(1),
+        marginRight: theme.spacing(1),
+        // display: 'block',
+        width: '60%',
     },
-    img: {
-        height: 255,
-        display: 'block',
-        maxWidth: 400,
-        overflow: 'hidden',
-        width: '100%',
+    dense: {
+        marginTop: 19,
+    },
+    menu: {
+        width: '60%',
+    },
+    button: {
+        margin: theme.spacing(1),
+        width: '30%',
+    },
+    input: {
+        display: 'none',
     },
 }));
 
-function Stepper() {
+const currencies = [
+    {
+        value: 'null',
+        label: '*Select link Category*',
+    },
+    {
+        value: 'Daily scoop',
+        label: 'Daily scoop ',
+    },
+    {
+        value: 'General info',
+        label: 'General info',
+    },
+    {
+        value: 'Social issues',
+        label: 'Social issues',
+    }, {
+        value: 'Organization',
+        label: 'Organaization',
+    },
+    {
+        value: 'Culture',
+        label: 'Culture',
+    },
+    {
+        value: 'Nature',
+        label: 'Nature',
+    },
+    {
+        value: 'History',
+        label: 'History',
+    },
+    {
+        value: 'Entertainment',
+        label: 'Entertainment',
+    },
+    {
+        value: 'Food&cooking',
+        label: 'Food&cooking',
+    },
+    {
+        value: 'Travel&Tourism',
+        label: 'Travel&Tourism'
+    },
+    {
+        value: 'Science&Tech',
+        label: 'Science&Tech',
+    },
+    {
+        value: 'Business',
+        label: 'Business',
+    },
+    {
+        value: 'People',
+        label: 'People',
+    },
+    {
+        value: 'Religion',
+        label: 'Religion',
+    },
+
+];
+
+export default function Newlink() {
     const classes = useStyles();
-    const theme = useTheme();
-    const [activeStep, setActiveStep] = React.useState(0);
-    const maxSteps = tutorialSteps.length;
+    const [values, setValues] = React.useState({
+        name: '',
+        age: '',
+        multiline: 'Controlled',
+        currency: '*Select ad Category*',
+    });
 
-    function handleNext() {
-        setActiveStep(prevActiveStep => prevActiveStep + 1);
-    }
-
-    function handleBack() {
-        setActiveStep(prevActiveStep => prevActiveStep - 1);
-    }
-
-    function handleStepChange(step) {
-        setActiveStep(step);
-    }
+    const handleChange = name => event => {
+        setValues({ ...values, [name]: event.target.value });
+    };
 
     return (
-        <div className={classes.root}>
-            <Paper square elevation={0} className={classes.header}>
-                <Typography>{tutorialSteps[activeStep].label}</Typography>
-            </Paper>
-            <AutoPlaySwipeableViews
-                axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-                index={activeStep}
-                onChangeIndex={handleStepChange}
-                enableMouseEvents
+        <React.Fragment>
+            <CssBaseline />
+            <Container fixed>
+                <div className="root">
+                    <h3>Add new link</h3>
+                    <form className={classes.container} noValidate autoComplete="off">
+                        <label>Fill in the blanks below to submit your link to infolanka Classifieds. Thanks!</label>
+                        <TextField
+                            required
+                            id="standard-name"
+                            label="Your Real Name"
+                            placeholder="either your first name or your last name, we will not accept nicknames or initials"
+                            className={classes.textField}
+                            value={values.name}
+                            onChange={handleChange('name')}
+                            margin="normal"
+                        />
+                        <TextField
+                            required
+                            id="standard-required"
+                            label="E-Mail"
+                            defaultValue=""
+                            className={classes.textField}
+                            margin="normal"
+                        />
+                        <TextField
+                            error
+                            id="standard-error"
+                            label="Country"
+                            defaultValue=""
+                            className={classes.textField}
+                            margin="normal"
+                        />
+                        <TextField
+                            id="standard-number"
+                            label="Phone: (Optional)"
+                            value={values.age}
+                            onChange={handleChange('age')}
+                            className={classes.textField}
+                            InputLabelProps={{
+                                shrink: true,
+                            }}
+                            margin="normal"
+                        />
+                        <TextField
+                            id="standard-select-currency"
+                            select
+                            label="Link Category"
+                            className={classes.textField}
+                            value={values.currency}
+                            // defaultValue={currencies[0].label}
+                            onChange={handleChange('currency')}
+                            SelectProps={{
+                                MenuProps: {
+                                    className: classes.menu,
+                                },
+                            }}
+                            helperText="Please select your currency"
+                            margin="normal"
+                        >
+                            {currencies.map(option => (
+                                <MenuItem key={option.value} value={option.value}>
+                                    {option.label}
+                                </MenuItem>
+                            ))}
+                        </TextField>
+                        <textField
+                            id="standard-error"
+                            label="Title: (Short Description)"
+                            defaultValue=""
+                            className={classes.textField}
+                            margin="normal"
+                        />
+                        <TextField
+                            id="standard-multiline-static"
+                            label="Description: (Less than 500 Characters)"
+                            multiline
+                            rows="4"
+                            placeholder="Please limit your text to less than 500 characters."
+                            className={classes.textField}
+                            margin="normal"
+                        />
+                        {/* <TextField
+                id="standard-select-currency-native"
+                select
+                label="Native select"
+                className={classes.textField}
+                value={values.currency}
+                onChange={handleChange('currency')}
+                SelectProps={{
+                native: true,
+                MenuProps: {
+                    className: classes.menu,
+                },
+                }}
+                helperText="Please select your currency"
+                margin="normal"
             >
-                {tutorialSteps.map((step, index) => (
-                    <div key={step.label}>
-                        {Math.abs(activeStep - index) <= 2 ? (
-                            <img className={classes.img} src={step.imgPath} alt={step.label} />
-                        ) : null}
-                    </div>
+                {currencies.map(option => (
+                <option key={option.value} value={option.value}>
+                    {option.label}
+                </option>
                 ))}
-            </AutoPlaySwipeableViews>
-            <MobileStepper
-                steps={maxSteps}
-                position="static"
-                variant="text"
-                activeStep={activeStep}
-                nextButton={
-                    <Button size="small" onClick={handleNext} disabled={activeStep === maxSteps - 1}>
-                        Next
-                        {theme.direction === 'rtl' ? <KeyboardArrowLeft /> : <KeyboardArrowRight />}
-                    </Button>
-                }
-                backButton={
-                    <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
-                        {theme.direction === 'rtl' ? <KeyboardArrowRight /> : <KeyboardArrowLeft />}
-                        Back
-                    </Button>
-                }
+            </TextField>
+            <TextField
+                id="standard-full-width"
+                label="Label"
+                style={{ margin: 8 }}
+                placeholder="Placeholder"
+                helperText="Full width!"
+                fullWidth
+                margin="normal"
+                InputLabelProps={{
+                shrink: true,
+                }}
             />
-        </div>
+            <TextField
+                id="standard-bare"
+                className={classes.textField}
+                defaultValue="Bare"
+                margin="normal"
+                inputProps={{ 'aria-label': 'bare' }}
+            /> */}
+                        <div>
+                            <Button variant="contained" color="primary" className={classes.button} component={NavLink} to="/classified-ads/post_new/success">
+                                SUBMIT
+                            </Button>
+                            <Button variant="contained" className={classes.button}>
+                                RESET
+                            </Button>
+                        </div>
+                    </form>
+                </div>
+            </Container>
+        </React.Fragment>
     );
 }
-
-export default Stepper;

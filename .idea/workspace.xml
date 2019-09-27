@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303cb9a3-5c7b-432b-9661-e56b2a0b5ea1" name="Default Changelist" comment="santha">
-      <change afterPath="$PROJECT_DIR$/src/assests/c3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assests/c4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Excarasul.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Feild.js" afterDir="false" />
+    <list default="true" id="303cb9a3-5c7b-432b-9661-e56b2a0b5ea1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Dalyscope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Newcard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/news_room/HomeComponent/Newcard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/classified_ads/PostNewAd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/classified_ads/PostNewAd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/malini_kitchen/RecipeTypeImgContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/malini_kitchen/RecipeTypeImgContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news_room/Explorer/Addlink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Addlink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news_room/Explorer/Cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Cs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/news_room/Explorer/Explorera.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Explorera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news_room/Explorer/Feild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/Explorer/Feild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news_room/HomeComponent/CardView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/HomeComponent/CardView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news_room/HomeComponent/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/HomeComponent/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/news_room/HomeComponent/SlideShow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/HomeComponent/SlideShow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news_room/HomeComponent/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/HomeComponent/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news_room/HomeComponent/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/HomeComponent/card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news_room/NewsRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/NewsRoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news_room/layout/Manu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news_room/layout/Manu.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,100 +33,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Addlink.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/NewRecipe.js">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/RecipeGrid.js">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/CardView.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
+            <state relative-caret-position="340">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/RecentRecipeList.js">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/SlideShow.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-918">
+            <state relative-caret-position="417">
+              <caret line="27" column="116" selection-start-line="27" selection-start-column="116" selection-end-line="27" selection-end-column="116" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/RecipeTypesDropDown.js">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Explorera.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="32" selection-start-line="4" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/SuccessfulPage.js">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Tab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-490">
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/TabsContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1479">
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/Slider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/KitchenHomePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="151">
+              <caret line="243" column="24" selection-start-line="243" selection-start-column="24" selection-end-line="243" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -128,12 +90,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Container/Container.d.ts">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/card.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="51">
+              <caret line="86" column="862" selection-start-line="86" selection-start-column="862" selection-end-line="86" selection-end-column="862" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#1#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/NewsRoom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#84#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/Newcard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="983">
+              <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/layout/Manu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="151" column="24" selection-start-line="150" selection-start-column="48" selection-end-line="151" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/routs.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#84#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,6 +159,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>o</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -180,37 +197,47 @@
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/TitlebarGridList.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/NestedGrid.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/player.js" />
-        <option value="$PROJECT_DIR$/src/components/news_room/NewsRoom.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/List.js" />
-        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Button.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Addlink.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/ListDividers.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/ExpContent.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/ExpContent.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/malini_kitchen/MalinisKitchen.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Tablist.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/ExplorerHeader.jsx" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/aa.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Media.js" />
-        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Feild.js" />
         <option value="$PROJECT_DIR$/src/components/AppBar.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Excarosell.js" />
-        <option value="$PROJECT_DIR$/src/components/news_room/HomeComponent/SlideShow.jsx" />
-        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Cs.js" />
-        <option value="$PROJECT_DIR$/src/components/news_room/HomeComponent/style.css" />
-        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Explorera.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Excarasul.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Auto.js" />
         <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Addlink.jsx" />
+        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Button.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Cs.js" />
+        <option value="$PROJECT_DIR$/src/components/classified_ads/PostNewAd.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Newcard.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/NewsRoom.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/layout/Manu.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/HomeComponent/Home.jsx" />
+        <option value="$PROJECT_DIR$/src/components/news_room/HomeComponent/Newcard.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/HomeComponent/style.css" />
+        <option value="$PROJECT_DIR$/src/components/news_room/HomeComponent/SlideShow.jsx" />
+        <option value="$PROJECT_DIR$/src/components/malini_kitchen/RecipeTypeImgContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Feild.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Dalyscope.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Explorera.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/Explorer/Tab.js" />
+        <option value="$PROJECT_DIR$/src/components/news_room/HomeComponent/CardView.jsx" />
+        <option value="$PROJECT_DIR$/src/components/news_room/HomeComponent/card.jsx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="512" />
-    <option name="y" value="102" />
-    <option name="width" value="804" />
-    <option name="height" value="584" />
+    <option name="x" value="193" />
+    <option name="y" value="149" />
+    <option name="width" value="1039" />
+    <option name="height" value="549" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,7 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,12 +283,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="news_room" type="462c0819:PsiDirectoryNode" />
-              <item name="Explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeComponent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="infolanka-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infolanka-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="news_room" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +350,8 @@
       <workItem from="1569086337487" duration="3975000" />
       <workItem from="1569142218796" duration="1329000" />
       <workItem from="1569157058676" duration="11807000" />
-      <workItem from="1569229208359" duration="10382000" />
+      <workItem from="1569229208359" duration="39344000" />
+      <workItem from="1569565775440" duration="11867000" />
     </task>
     <task id="LOCAL-00001" summary="add explore page">
       <created>1568991255954</created>
@@ -331,56 +367,43 @@
       <option name="project" value="LOCAL" />
       <updated>1569004822076</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new explora">
+      <created>1569245873884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569245873884</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101399000" />
+    <option name="totallyTimeSpent" value="142228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16592261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12648809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.4985119" weight="0.22422259" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5052083" side_tool="true" weight="0.29758713" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49479166" visible="true" weight="0.2487725" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32405892" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4985119" weight="0.22422259" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5052083" side_tool="true" weight="0.29758713" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32824427" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49479166" visible="true" weight="0.2667758" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32405892" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18601191" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.4985119" weight="0.22422259" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5052083" side_tool="true" weight="0.29787233" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49479166" visible="true" weight="0.2487725" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32405892" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -429,161 +452,12 @@
     <MESSAGE value="add meadia cardviwe" />
     <MESSAGE value="add explore page" />
     <MESSAGE value="santha" />
-    <option name="LAST_COMMIT_MESSAGE" value="santha" />
+    <MESSAGE value="new explora" />
+    <option name="LAST_COMMIT_MESSAGE" value="new explora" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/AdCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/BreadCrumb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/photo_gallery/wild.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/CategoryExpansion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/gridviwe.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/layout/title.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/photo_gallery/PhotoGallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_embed.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Videoplayer.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Carousel.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/FadeMenu.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/player.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/NestedGrid.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/routs.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#84#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/Home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/CardView.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/card.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="173" selection-start-line="27" selection-start-column="173" selection-end-line="27" selection-end-column="173" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/NewsRoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#84#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/VerticalTabs.js" />
     <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/SwipeableTextMobileStepper.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/ClassifiedAds.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/PostNewAd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3285">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1071">
@@ -594,26 +468,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Excarosell.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/ExpContent.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/ExplorerHeader.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="77" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -637,83 +491,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/SlideShow.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="48" lean-forward="true" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Cs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Feild.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Explorera.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Excarasul.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="50" column="149" selection-start-line="50" selection-start-column="149" selection-end-line="50" selection-end-column="149" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/MalinisKitchen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-409">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/RecipeTypesDropDown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -729,27 +510,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/Slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/RecentRecipeList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-918">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/ViewRecipe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -765,19 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Addlink.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Auto.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Auto.js" />
     <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/NewRecipe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -813,6 +564,329 @@
           <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Addlink.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/PostNewAd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Cs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/AdCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Newcard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/CategoryExpansion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/AdsGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/BreadCrumb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/classified_ads/ClassifiedAds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Excarasul.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/layout/Nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4267">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/ViewRecipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/RecipeTypeImgContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2227">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/RecipeTypesDropDown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/malini_kitchen/Slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Feild.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/ExpContent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/ExplorerHeader.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/createMuiTheme.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/createPalette.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Dalyscope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Explorera.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/Explorer/Tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="243" column="24" selection-start-line="243" selection-start-column="24" selection-end-line="243" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/layout/Manu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="151" column="24" selection-start-line="150" selection-start-column="48" selection-end-line="151" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/CardView.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/NewsRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#84#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/Newcard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="983">
+          <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/routs.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#84#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/SlideShow.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="27" column="116" selection-start-line="27" selection-start-column="116" selection-end-line="27" selection-end-column="116" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/news_room/HomeComponent/card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="86" column="862" selection-start-line="86" selection-start-column="862" selection-end-line="86" selection-end-column="862" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
           </folding>
         </state>
       </provider>

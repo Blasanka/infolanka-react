@@ -15,6 +15,8 @@ import SuccessfulPage from './components/classified_ads/SuccessfulPage';
 import NewRecipe from './components/malini_kitchen/NewRecipe';
 import SuccessfulPageMalini from './components/malini_kitchen/SuccessfulPage';
 import ViewRecipe from './components/malini_kitchen/ViewRecipe';
+import Dalyscope from "./components/news_room/Explorer/Dalyscope";
+
 
 function App() {
   return (
@@ -36,6 +38,7 @@ function App() {
           <Route path="/message_board" component={MessageBoard} />
           <Route path="/explorer" component={Explorer}/>
           <Route path="/adlink" component={Addlink}/>
+          <Route path="/daly_scope/" component={Dalyscope}/>
         </Switch>
       </Router>
     </div>

@@ -15,6 +15,9 @@ import ButtonBases from "./Feild";
 import Stepper from "./Cs";
 import Typography from "@material-ui/core/Typography";
 import Excarasul from "./Excarasul";
+import Facebook from "./Newcard";
+import MediaCard from "../HomeComponent/card";
+import CardMedia from "@material-ui/core/CardMedia";
 
 
 
@@ -97,6 +100,17 @@ function Explorer() {
                     </Button></Link></Col>
                     <Col span={11}></Col>
                     {/*<Stepper/>*/}
+                </Row>
+                <Row>
+                    <Col span={8}>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PTSvtOOySFA" frameBorder="0"
+                                allowFullScreen></iframe></Col>
+                    <Col span={8}>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MbIPOgY9CTo" frameBorder="0"
+                                allowFullScreen></iframe></Col>
+                    <Col span={8}>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9K4VuVUcHQA" frameBorder="0"
+                                allowFullScreen></iframe></Col>
                 </Row>
                 <Row>
 

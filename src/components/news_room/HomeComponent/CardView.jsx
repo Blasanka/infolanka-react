@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Card, Row, Col} from 'antd';
-import MediaCard from "./card";
+
+
+import RecipeReviewCard from "./card";
 
 
 class CardView extends Component{
@@ -12,27 +14,19 @@ class CardView extends Component{
                </Row>
                <Row>
                    <Col { ...imgRes}>
-                       <MediaCard/>
+                       <RecipeReviewCard/>
+
                    </Col>
                    <Col { ...imgRes}>
-                       <MediaCard/>
+                       <RecipeReviewCard/>
                    </Col>
                    <Col { ...imgRes}>
-                       <MediaCard/>
+                       <RecipeReviewCard/>
                    </Col>
                    <Col { ...imgRes}>
-                       <MediaCard/>
+                       <RecipeReviewCard/>
                    </Col>
 
-                   {/*<Col>*/}
-                   {/*    <MediaCard/>*/}
-                   {/*</Col>*/}
-                   {/*/!*<Col>*!/*/}
-                   {/*    <MediaCard/>*/}
-                   {/*</Col>*/}
-                   {/*<Col>*/}
-                   {/*    <Cardtest/>*/}
-                   {/*</Col>*/}
                </Row>
                <Row><Col><h3>{this.props.name}</h3></Col></Row>
            </Card>

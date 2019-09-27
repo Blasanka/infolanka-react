@@ -34,22 +34,23 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const currencies = [
-  {
-    value: 'null',
-    label: '*Select ad Category*',
-  },
-  {
-    value: 'bride',
-    label: 'Brides (Select a bride)',
-  },
-  {
-    value: 'groom',
-    label: 'Grooms (Seeking a groom)',
-  },
-  {
-    value: 'property-colombo',
-    label: 'Property Sales *Colombo',
-  },
+    {
+        value: 'null',
+        label: '*Select ad Category*',
+    },
+    {
+        value: 'bride',
+        label: 'Brides (Select a bride)',
+    },
+    {
+        value: 'groom',
+        label: 'Grooms (Seeking a groom)',
+    },
+    {
+        value: 'property-colombo',
+        label: 'Property Sales *Colombo',
+    },
+
 ];
 
 export default function PostNewAd() {

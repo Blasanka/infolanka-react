@@ -1,5 +1,8 @@
 import React from 'react';
 import {Layout} from "antd";
+import Newlink from "./Cs";
+
+
 
 export default class Addlink extends React.Component{
 
@@ -7,7 +10,8 @@ export default class Addlink extends React.Component{
         return (
             <Layout className="layout">
 
-               <h2>hello</h2>
+
+                <Newlink/>
 
 
             </Layout>

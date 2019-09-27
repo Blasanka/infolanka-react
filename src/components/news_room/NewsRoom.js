@@ -4,14 +4,25 @@ import {Layout} from "antd";
 import Manu from "./layout/Manu";
 import SlideShow from "./HomeComponent/SlideShow";
 import Home from "./HomeComponent/Home";
+import { Row, Col } from 'antd';
+
 
 
 function NewsRoom() {
   return (
       <Layout className="layout">
+          <Row>
+              <Manu/>
+          </Row>
+          <Row>
+              <Col span = {2}></Col>
+              <Col span ={20}>
+                  <SlideShow/>
+              </Col>
+              <Col span ={2}></Col>
+          </Row>
 
-          <Manu/>
-          <SlideShow/>
+          {/*<SlideShow/>*/}
           {/*<Cardtest/>*/}
           <Home/>
 

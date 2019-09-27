@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
+import { Link } from 'react-router-dom';
 
 const images = [
     {
@@ -169,13 +170,13 @@ export default function ButtonBases() {
                     style={{
                         width: image.width,
                     }}
-                >
-          <span
-              className={classes.imageSrc}
-              style={{
-                  backgroundImage: `url(${image.url})`,
-              }}
-          />
+                ><Link to={'/daly_scope/${image.title.replace(/\\s/g, \'_\')}'}>
+                    <span
+                    className={classes.imageSrc}
+                    style={{
+                        backgroundImage: `url(${image.url})`,
+                    }}
+                />
                     <span className={classes.imageBackdrop} />
                     <span className={classes.imageButton}>
             <Typography
@@ -187,7 +188,8 @@ export default function ButtonBases() {
               {image.title}
                 <span className={classes.imageMarked} />
             </Typography>
-          </span>
+          </span></Link>
+
                 </ButtonBase>
             ))}
         </div>
