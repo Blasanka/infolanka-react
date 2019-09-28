@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home.js';
 import ClassifiedAds from './components/classified_ads/ClassifiedAds.js';
 import MalinisKitchen from './components/malini_kitchen/MalinisKitchen.js';
-import PhotoGallery from './components/photo_gallery/PhotoGallery';
+import PhotoGallery from './components/newphoto/Tabs';
 import NewsRoom from './components/news_room/NewsRoom';
 import MessageBoard from './components/message_board/MessageBoard';
 import Signin from './components/message_board/signin'
@@ -22,7 +22,7 @@ import Explorer from "./components/news_room/Explorer/Explorera";
 import Success from './components/news_room/Explorer/Success';
 import Addlink from "./components/news_room/Explorer/Addlink";
 import Joke from './components/joke/Joketable';
-import Form from './components/joke/Joke_page';
+import Form from './components/joke/Joke_from';
 import Add from './components/joke/Addbtn';
 import DetailedRecipe from './components/malini_kitchen/DetailedRecipe.js';
 import DetailedAd from './components/classified_ads/DetailedAd';
