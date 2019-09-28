@@ -1,11 +1,13 @@
 import React from 'react';
 import {Layout} from "antd";
+import Newlink from "./Cs";
+
 import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -103,7 +105,7 @@ export default class Addlink extends React.Component{
     render() {
         return (
             <Layout className="layout">
-               <LinkForm />
+                <Newlink/>
             </Layout>
 
         );

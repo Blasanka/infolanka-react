@@ -33,6 +33,7 @@ function MalinisKitchen() {
   return (
     <div className={classes.header}>
         <React.Fragment>
+
             <CssBaseline />
             <Container fixed>
                 <RecipeTypeImgContainer className={classes.header} />

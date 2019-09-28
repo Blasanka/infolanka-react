@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardView from "./CardView";
 import './style.css';
 import {Col, Row} from "antd";
+import YouTube from "./Newcard";
 
     class Home extends Component{
     renderProfiles = () => {     //dynamical view of carts
@@ -10,7 +11,9 @@ import {Col, Row} from "antd";
                 <CardView name={item.name} title={item.title} /*description={item.desc}*/
                           imgSrc={item.imgSrc}
                 />
+                <YouTube/>
             </Col>
+
 
         })
     }
@@ -20,6 +23,7 @@ import {Col, Row} from "antd";
             {/*imgSrc={'https://cbsnews1.cbsistatic.com/hub/i/2018/11/06/0c1af1b8-155a-458e-b105-78f1e7344bf4/2018-11-06t054310z-1334124005-rc1be15a8050-rtrmadp-3-people-sexiest-man.jpg'}*/}
             {/*/>*/}
             {this.renderProfiles()}
+            {/*<YouTube/>*/}
         </Row>
     }
 }
