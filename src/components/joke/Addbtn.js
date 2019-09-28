@@ -69,7 +69,7 @@ export default function CustomizedDialogs() {
       {/* <Button variant="outlined" color="secondary" onClick={handleClickOpen}>
         Open dialog
       </Button> */}
-     <Button type="submit" variant="contained" color="primary" onClick={handleClickOpen}  component={NavLink} >
+     <Button  variant="contained" color="primary" onClick={handleClickOpen}  component={NavLink} >
                 SUBMIT
             </Button>
       <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>

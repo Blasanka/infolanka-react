@@ -21,7 +21,7 @@ import Dalyscope from "./components/news_room/Explorer/Dalyscope";
 import Explorer from "./components/news_room/Explorer/Explorera";
 import Success from './components/news_room/Explorer/Success';
 import Addlink from "./components/news_room/Explorer/Addlink";
-// import Joke from './components/joke/Joketable';
+import Joke from './components/joke/Joketable';
 import Form from './components/joke/Joke_page';
 import Add from './components/joke/Addbtn';
 import DetailedRecipe from './components/malini_kitchen/DetailedRecipe.js';
@@ -58,7 +58,7 @@ function App() {
           <Route path="/explorer/addlink/success" component={Success} />
           <Route path="/adlink" component={Addlink}/>
           <Route path="/daly_scope/" component={Dalyscope}/>
-          {/* <Route path="/joke_page" exact component={Joke} /> */}
+          <Route path="/joke_page" exact component={Joke} />
           <Route path="/joke_page/form"exact component={Form} />
           <Route path="/joke_page/form/add"exact component={Add} />
         </Switch>
