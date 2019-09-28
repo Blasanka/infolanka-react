@@ -1,10 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {Component}from 'react';
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "@brainhubeu/react-carousel/lib/style.css";
-import ReactDOM from 'react-dom';
 //import ModalImage from "react-modal-image";
-import ImageZoom from 'react-medium-image-zoom'
 import { Carousel } from 'react-responsive-carousel';
 import P1 from './Dialogs/Visitors/p1';
 import P2 from './Dialogs/Visitors/p2';

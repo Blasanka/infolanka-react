@@ -51,8 +51,60 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+const validEmailRegex = RegExp(
+  /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
+);
+
  const SignIn = () => {
   const classes = useStyles();
+  const [formValid, setformValid] = React.useState(false);
+  const [errorCount, setErrorCount] = React.useState(null);
+  const [values, setValues] = React.useState({
+    email: "",
+    multiline: "Controlled",
+    password: "",
+    errors: {
+      email: '',
+      password: ''
+    }
+  });
+
+  function handleChange(event) {
+    event.preventDefault();
+    const { name, value } = event.target;
+    // setValues({ ...values, name: value });
+    switch (name) {
+      case "email":
+        setValues({ ...values, email: value });
+        values.errors.email = validEmailRegex.test(value) ? "" : "Email is invalid!";
+        break;
+      case "password":
+          setValues({ ...values, password: value });
+        values.errors.password =
+          value.length < 8
+            ? "Should be greater than 8 characters!"
+            : "";
+        break;
+      default:
+        break;
+    }
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    if (
+      values.email === "" ||
+      values.password === ""
+    ) {
+      setformValid(false);
+      setErrorCount(1);
+    } else {
+      setformValid(true);
+      setErrorCount(0);
+      // props.history.replace("/malinis_kitchen/new/success");
+      // handleClickOpen();
+    }
+  }
 
   return (
     <Container component="main" maxWidth="xs">
@@ -64,7 +116,8 @@ const useStyles = makeStyles(theme => ({
         <Typography component="h1" variant="h5">
           Message Borad Sign in
         </Typography>
-        <form className={classes.form} noValidate>
+        <form className={classes.form} 
+          onSubmit={handleSubmit} noValidate>
           <TextField
             variant="outlined"
             margin="normal"
@@ -75,6 +128,11 @@ const useStyles = makeStyles(theme => ({
             name="email"
             autoComplete="email"
             autoFocus
+            onChange={handleChange}
+            error={
+              values.errors.email.length > 0
+            }
+            helperText={values.errors.email}
           />
           <TextField
             variant="outlined"
@@ -86,6 +144,11 @@ const useStyles = makeStyles(theme => ({
             type="password"
             id="password"
             autoComplete="current-password"
+            error={
+              values.errors.password.length > 0
+            }
+            onChange={handleChange}
+            helperText={values.errors.password}
           />
           <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}

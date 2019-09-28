@@ -40,16 +40,16 @@ const currencies = [
     label: '*Select ad Category*',
   },
   {
-    value: 'bride',
-    label: 'Brides (Select a bride)',
+    value: 'Rices & Breads',
+    label: 'Rices & Breads',
   },
   {
-    value: 'groom',
-    label: 'Grooms (Seeking a groom)',
+    value: 'Meat & Sea Food',
+    label: 'Meat & Sea Food',
   },
   {
     value: 'property-colombo',
-    label: 'Property Sales *Colombo',
+    label: 'Rices & Breads',
   },
 ];
 

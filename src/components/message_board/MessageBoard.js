@@ -18,6 +18,7 @@ const useStyles = makeStyles(theme => ({
 
 function MessageBoard() {
   const classes = useStyles();
+
   return (
     <div>
     <h1 className='App'>Message Board</h1>

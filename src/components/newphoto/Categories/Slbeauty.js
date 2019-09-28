@@ -1,8 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {Component}from 'react';
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "@brainhubeu/react-carousel/lib/style.css";
-import ReactDOM from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
 import P1 from './Dialogs/Beauty/p1';
 import P3 from './Dialogs/Beauty/p3';
