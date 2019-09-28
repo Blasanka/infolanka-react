@@ -8,6 +8,8 @@ import MalinisKitchen from './components/malini_kitchen/MalinisKitchen.js';
 import PhotoGallery from './components/photo_gallery/PhotoGallery';
 import NewsRoom from './components/news_room/NewsRoom';
 import MessageBoard from './components/message_board/MessageBoard';
+import Signin from './components/message_board/signin'
+import Register from './components/message_board/Register'
 import PostNewAd from './components/classified_ads/PostNewAd';
 import SuccessfulPage from './components/classified_ads/SuccessfulPage';
 import DeleteAd from './components/classified_ads/DeleteAd.js';
@@ -19,7 +21,7 @@ import Dalyscope from "./components/news_room/Explorer/Dalyscope";
 import Explorer from "./components/news_room/Explorer/Explorera";
 import Success from './components/news_room/Explorer/Success';
 import Addlink from "./components/news_room/Explorer/Addlink";
-import Joke from './components/joke/Joketable';
+// import Joke from './components/joke/Joketable';
 import Form from './components/joke/Joke_page';
 import Add from './components/joke/Addbtn';
 import DetailedRecipe from './components/malini_kitchen/DetailedRecipe.js';
@@ -45,6 +47,10 @@ function App() {
           <Route path="/malini_kitchen/Message_Board" exact component={MessageBoard} />
           <Route path="/malini_kitchen/category/:title" exact component={ViewRecipe} />
           <Route path="/malinis_kitchen/new/success" exact component={SuccessfulPageMalini} />
+          <Route path="/malini_kitchen/:title" exact component={ViewRecipe} />
+          <Route path="/message_board" exact component={MessageBoard} />
+          <Route path="/message_board/Signin" exact component={Signin} />
+          <Route path="/message_board/Register" exact component={Register} />
           <Route path="/photo_gallery" component={PhotoGallery} />
           <Route path="/news_room" component={NewsRoom} />
           <Route path="/message_board" component={MessageBoard} />
@@ -52,7 +58,7 @@ function App() {
           <Route path="/explorer/addlink/success" component={Success} />
           <Route path="/adlink" component={Addlink}/>
           <Route path="/daly_scope/" component={Dalyscope}/>
-          <Route path="/joke_page" exact component={Joke} />
+          {/* <Route path="/joke_page" exact component={Joke} /> */}
           <Route path="/joke_page/form"exact component={Form} />
           <Route path="/joke_page/form/add"exact component={Add} />
         </Switch>
