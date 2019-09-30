@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d939df951acd8f3c8623f08017edae39",
+    "revision": "a67a66a0386b090fdd0d82fd2f8c1d99",
     "url": "/infolanka-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/infolanka-react/static/css/2.0e2ecc17.chunk.css"
   },
   {
-    "revision": "8fa07a5d1fb850938b86",
+    "revision": "e656734cce8d4b35e009",
     "url": "/infolanka-react/static/css/main.eda912ec.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/infolanka-react/static/js/2.fad9607b.chunk.js"
   },
   {
-    "revision": "8fa07a5d1fb850938b86",
-    "url": "/infolanka-react/static/js/main.aeacce02.chunk.js"
+    "revision": "e656734cce8d4b35e009",
+    "url": "/infolanka-react/static/js/main.8ff34080.chunk.js"
   },
   {
     "revision": "46a53b4801b8b6164dcb",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/infolanka-react/precache-manifest.273ada15aaa6b4ca7fc260c8fafe3777.js"
+  "/infolanka-react/precache-manifest.b13ee6062b9c72a2f9cddba1e58f654b.js"
 );
 
 self.addEventListener('message', (event) => {
